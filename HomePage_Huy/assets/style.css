@@ -70,6 +70,9 @@ html {
   text-decoration: none;
   color: #000;
 }
+.contact-info a:hover {
+  color: burlywood;
+}
 .contact-info i {
   color: burlywood;
 }
@@ -117,6 +120,7 @@ html {
 
 #nav .submenu {
   display: none;
+  list-style-type: none;
   position: absolute;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0);
@@ -187,7 +191,7 @@ html {
   justify-content: center;
 }
 
-h1 + div:hover {
+.logo + div:hover {
   background-color: #000;
 }
 #nav2 {
