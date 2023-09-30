@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888;
+  line-height: 26px;
+}
+
+h3 {
+  color: #111111;
+  margin-top: 0px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header__action {
+  color: #111111;
+  margin-top: 0px;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.header__top-block-1 {
+  margin: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.align-items-center {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.block-1-col-2 {
+  display: flex;
+}
+
+.features__item-2-1 {
+  display: flex;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.features_item-2-2 {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.fa-credit-card {
+  font-size: 35px;
+  color: #fd7e14;
+  margin-right: 20px;
+  transition: transform 0.3s;
+}
+
+.fa-credit-card:hover {
+  transform: translateY(-10px);
+}
+
+.fa-arrows-rotate {
+  font-size: 35px;
+  color: #fd7e14;
+  margin-right: 20px;
+  transition: transform 0.3s;
+}
+
+.fa-arrows-rotate:hover {
+  transform: translateY(-10px);
+}
+
+.block-1-col-3 {
+  flex: 1;
+  text-align: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a i {
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.has-noti {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-count {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #fd7e14;
+  font-weight: 500;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
+}
+
+.header_middle-block-2 {
+  background-color: #f5f5f5;
+  margin-left: 0%;
+  display: flex;
+  align-content: center;
+}
+
+.header_search-input {
+  display: flex;
+}
+
+.header__middle-right {
+  display: flex;
+  justify-content: end;
+  margin-left: 200px;
+}
+
+.header__select {
+  display: flex;
+}
+
+.header__lang {
+  display: flex;
+}
+
+.header_search {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  padding-right: 5px;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  background-color: white;
+  margin-left: 70px;
+}
+
+.header_search form {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 0%;
+}
+
+.header_search-input input {
+  margin-left: 20px;
+  width: 300px;
+  height: 38px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.header_search-input button {
+  margin-left: 50px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass {
+  font-size: 18px;
+}
+
+.header_search-select select {
+  border: none;
+}
+
+.header__select {
+  margin-left: 50px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fd7e14;
+}
+
+.header__select select {
+  background: transparent;
+  border: 0px;
+}
+
+.header__bottom {
+  background-color: #111111;
+  display: flex;
+}
+
+.main-menu {
+  margin-left: 50px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.bg-hero {
+  background-image: url("https://images.pexels.com/photos/7932264/pexels-photo-7932264.jpeg?cs=srgb&dl=pexels-andrew-neel-7932264.jpg&fm=jpg");
+  background-size: cover;
+  background-position: 30% 65%;
+  background-repeat: no-repeat;
+  color: #111;
+  text-align: center;
+  height: 400px;
+}
+.title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;  
+  text-align: center!important;
+}
+.text {
+  max-width: 650px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+footer {
+  line-height: 1.5;
+}
+
+.container2 {
+  max-width: 1170px;
+  /* background-color: #e91e63; */
+  margin: auto;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #fd7e14;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.center-text h2 {
+  color: #111;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.center-text span {
+  color: #fd7e14;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+  margin: 50px 50px;
+}
+
+.row {
+  position: relative;
+  transition: all .40s;
+}
+
+.row .img-new {
+  width: 100%;
+  height: auto;
+  transition: all .40s;
+}
+
+.row .img-new:hover {
+  transform: scale(0.9);
+}
+
+.product-text h5 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fd7e14;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+.heart-icon {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+
+.heart-icon:hover {
+  color: #fd7e14;
+}
+
+.ratting {
+  color: #fd7e14;
+  font-size: 18px;
+}
+
+.price h4 {
+  color: #111;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.price p {
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+}
